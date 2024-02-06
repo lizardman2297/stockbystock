@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  background-color: #cfcfcf70;
+}
+
+.loginForm {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.loginForm form {
+  display: grid;
+  grid-row-gap: 10px;
+  padding: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 20px;
+  box-shadow: 3px 5px 6px #0055b070;
+}
+.loginForm form label {
+  font-size: 20px;
+}
+.loginForm form input {
+  height: 40px;
+  width: 400px;
+}
+
+/*# sourceMappingURL=user.css.map */
