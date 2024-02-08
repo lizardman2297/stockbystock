@@ -1,10 +1,5 @@
 <?php
 
-//! i love you
-//? i love you
-// i love you
-//TODO i love you
-
     function loadProduiForListModel($start, $end, $step) {
         include_once("model/database.php");
         $db = databaseConnect();

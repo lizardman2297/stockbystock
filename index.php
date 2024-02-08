@@ -19,6 +19,8 @@
 
     if (!isset($_SESSION['username'])) {
         header("location: index.php?user=login");
+    } else {
+        $username = $_SESSION["username"];
     }
     
     include_once("controller/user/userController.php");    

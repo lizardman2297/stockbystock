@@ -1,7 +1,7 @@
 // var libelle = ["fury", "FURY", "test", "Goal"]
 var regex = /.*FURY.*/;
 
-// TODO a chaque lettre ajouter charger serachArray -> push dans autocomplete, si click sur ref -> load prod else load array
+// TODO a chaque lettre ajouter charger serachArray -> push dans autocomplete, if click sur ref -> load prod else load array
 
 var searchArray = function(arr, regex) {
   var matches=[], i;

@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS stockis;
-CREATE DATABASE stockis;
-USE stockis;
+DROP DATABASE IF EXISTS stockbystock;
+CREATE DATABASE stockbystock;
+USE stockbystock;
 
 CREATE TABLE Listetag(
     id INT UNSIGNED AUTO_INCREMENT,
@@ -64,6 +64,7 @@ CREATE TABLE fournisseur(
     email VARCHAR(255),
     notes TEXT,
     francoDePort DECIMAL(6,2),
+    fraisDePort DECIMAL(6,2),
     visuel VARCHAR(255),
 
     CONSTRAINT pk_fournisseur PRIMARY KEY (id)

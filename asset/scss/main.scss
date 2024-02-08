@@ -17,6 +17,8 @@ $lightGray: #e2e2e2;
     position: relative;
     padding: 0;
     margin: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
 }
 
 a, a:active {
@@ -76,6 +78,8 @@ nav {
 
 // Menu droite
 aside {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     .navbar {
         float: left;
         width: calc(15% - 20px);
