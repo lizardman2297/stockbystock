@@ -17,10 +17,10 @@
 
     session_start();
 
-    if (!isset($_SESSION['username'])) {
+    if (!isset($_SESSION['nom'])) {
         header("location: index.php?user=login");
     } else {
-        $username = $_SESSION["username"];
+        $username = $_SESSION["nom"];
     }
     
     include_once("controller/user/userController.php");    

@@ -21,9 +21,6 @@
             <label for="mail">Mail : </label>
             <input type="text" name="mail" id="mail" placeholder="Entrer votre Mail : ...">
 
-            <label for="username">Nom d'utilisateur : </label>
-            <input type="text" name="username" id="username" placeholder="Entrer votre nom d'utilisateur : ...">
-
             <label for="password">Mot de passe : </label>
             <input type="password" name="pass" id="pass" placeholder="Password ...">
             <label for="password">Mot de passe : </label>

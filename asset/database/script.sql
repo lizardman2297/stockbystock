@@ -100,6 +100,7 @@ CREATE TABLE utilisateur(
     id INT UNSIGNED AUTO_INCREMENT,
     prenom VARCHAR(255),
     nom VARCHAR(255),
+    password VARCHAR(255),
     mail VARCHAR(255),
     imageProfil VARCHAR(255),
     dateCreation DATE,
@@ -132,5 +133,7 @@ ALTER TABLE logStock ADD CONSTRAINT fk_logStockProduit FOREIGN KEY(produit) REFE
 ALTER TABLE logStock ADD CONSTRAINT fk_logStockutilisateur FOREIGN KEY(utilisateur) REFERENCES utilisateur(id);
 
 ALTER TABLE utilisateur ADD CONSTRAINT fk_utilisateurRole FOREIGN KEY(role) REFERENCES role(id);
+
+INSERT INTO role VALUES (1, "default", "only the first account benefits from this role");
 
 
